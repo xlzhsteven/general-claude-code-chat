@@ -81,3 +81,18 @@ This workspace follows a documentation-centric approach with no traditional buil
 3. **Quality Assurance**: PO checklists and QA gates for validation
 
 The system includes specialized agent personas (PM, PO, Architect, Dev, QA, UX Expert, Analyst) that can be invoked through BMad slash commands to maintain consistency across planning and execution phases.
+
+### Key Architectural Components
+
+- **Agent System**: Each agent in `.bmad-core/agents/` is self-contained with activation instructions, persona definitions, commands, and dependencies
+- **Task Automation**: Tasks in `.bmad-core/tasks/` are executable workflows that agents use for specific operations
+- **Template System**: YAML-based templates in `.bmad-core/templates/` provide structured formats for documents
+- **Workflow Orchestration**: Workflows in `.bmad-core/workflows/` define multi-step processes for different project types
+- **Claude Code Integration**: Slash commands in `.claude/commands/BMad/` mirror the core agent system for IDE usage
+
+### Document Sharding Strategy
+
+The system supports document sharding through configuration in `core-config.yaml`:
+- Large documents (PRD, Architecture) can be automatically split into manageable sections
+- Sharded documents are stored in respective directories (`docs/prd/`, `docs/architecture/`)
+- Epic patterns follow `epic-{n}*.md` naming convention for consistent organization
