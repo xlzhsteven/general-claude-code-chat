@@ -1,0 +1,183 @@
+{
+  "core_capabilities": [
+    "Message analysis by type, urgency, and property",
+    "Automatic property detection using keywords",
+    "Professional response generation using property-specific templates",
+    "Multi-property management with distinct contexts"
+  ],
+  "property_database": [
+    {
+      "name": "Campbell Netflix Office Room",
+      "basic_info": {
+        "name": "Quiet Room, Private bath, 5 Min to Netflix office",
+        "address": "1144 Linda Dr, Campbell, CA 95008",
+        "airbnb_url": "https://www.airbnb.com/rooms/909535914625022451",
+        "max_guests": "1 person only",
+        "check_in": "After 3:00 PM",
+        "check_out": "Before 11:00 AM",
+        "quiet_hours": "10:00 PM – 7:00 AM"
+      },
+      "access_wifi": {
+        "wifi_network": "XLW's guest",
+        "wifi_password": "Cbld@1144",
+        "door_code": "Last 4 digits of guest's phone number",
+        "room_key": "Given at check-in, return to host or leave on desk",
+        "parking": "Street parking available, ask about bike storage",
+        "emergency_contact": "(650) 336-5092"
+      },
+      "house_rules": [
+        "No smoking, pets, parties, or overnight guests",
+        "Kitchen Access: 3 drawers labeled 'guest use' only",
+        "Light cooking only; clean all dishes after use",
+        "Fridge/Freezer: One section each for guest use",
+        "Coffee machine: Ask host before using (not included)",
+        "Laundry: Best before 3 PM or after 9 PM"
+      ],
+      "amenities": [
+        "34-inch ultra-wide monitor with USB-C charging",
+        "Full kitchen, backyard, workspace, exterior area, pool",
+        "Air conditioning available",
+        "Transportation: Winchester VTA station 0.8 mi, Bus 26 & 60 on Bascom Ave",
+        "Grocery: Nob Hill Foods (1.2 mi), Safeway (1.5 mi)"
+      ],
+      "identification_keywords": [
+        "1144 Linda Dr",
+        "Campbell",
+        "Netflix office",
+        "quiet room",
+        "XLW's guest",
+        "Cbld@1144",
+        "34-inch monitor",
+        "ultra-wide monitor"
+      ],
+      "templates": {
+        "check_in": "Hi [Guest Name]! Welcome to Campbell. Your check-in details for 1144 Linda Dr:\n\n🚪 Door Code: [LAST 4 DIGITS OF PHONE] (last 4 digits of your phone number)\n🚗 Parking: Street parking is available\n📶 WiFi: XLW's guest / Password: Cbld@1144\n\nCheck-in: After 3:00 PM today | Check-out: Before 11:00 AM on [DATE]\nQuiet Hours: 10:00 PM – 7:00 AM (shared house)\n\nYour room has a 34-inch ultra-wide monitor with USB-C charging. Kitchen access includes 3 drawers labeled 'guest use' - light cooking only please.\n\nAny questions before your arrival? Looking forward to hosting you!\n\nBest regards,\n[Your Name]",
+        "wifi_troubleshooting": "Hi [Guest Name]! For WiFi issues:\n\n📶 Network: XLW's guest\n🔒 Password: Cbld@1144 (capital C, lowercase b, l, d, @ symbol, then 1144)\n\nTroubleshooting:\n- Make sure you're selecting 'XLW's guest' (not the main network)\n- Password is case-sensitive: Cbld@1144\n- Try forgetting and reconnecting to the network\n- Restart your device if needed\n\nIf still having issues, please text me and I'll help resolve it quickly!\n\nBest,\n[Your Name]",
+        "kitchen_guidelines": "Hi [Guest Name]! Kitchen guidelines:\n\n✅ Your Access: 3 drawers labeled 'guest use' (dishes, mugs, utensils)\n✅ Cooking: Light cooking only please\n✅ Cleaning: Please clean all dishes and utensils after use\n✅ Fridge/Freezer: One section each marked for guest use\n\n❌ Coffee Machine: Please ask before using (not included for guest use)\n\nThe kitchen is shared, so please be considerate of other household members. Thanks!\n\nBest,\n[Your Name]"
+      }
+    },
+    {
+      "name": "San Jose Briarleaf Circle Room",
+      "basic_info": {
+        "name": "AC Quiet Room, Convenient, Private Bath, near Bart",
+        "address": "1208 Briarleaf Cir, San Jose, CA 95131",
+        "airbnb_url": "https://www.airbnb.com/rooms/1139877495930974523",
+        "max_guests": "1 person only",
+        "check_in": "3:00 PM",
+        "check_out": "Before 11:00 AM",
+        "quiet_hours": "10:00 PM – 7:00 AM"
+      },
+      "access_wifi": {
+        "wifi_network": "Zhang's guest",
+        "wifi_password": "Sjblc@1208",
+        "door_code": "Last 4 digits of guest's phone number",
+        "room_location": "First floor – through living room, turn left at hallway end",
+        "guest_spaces": "Bedroom on left, bathroom on right (clearly labeled)",
+        "parking": "Street parking (free) OR guest spaces with permit",
+        "emergency_contact": "(650) 336-5092"
+      },
+      "house_rules": [
+        "No smoking, pets, parties, or overnight guests",
+        "Kitchen Access: Dedicated fridge/freezer sections for guests",
+        "Light cooking allowed; clean all dishes after use",
+        "Shared living room (guests pass through)",
+        "Laundry: On-site, best before 3 PM or after 9 PM"
+      ],
+      "amenities": [
+        "First floor guest bedroom with private bathroom",
+        "Separate guest entrance through living room",
+        "Central AC",
+        "Shared kitchen with dedicated guest sections"
+      ],
+      "identification_keywords": [
+        "1208 Briarleaf Cir",
+        "Briarleaf",
+        "San Jose",
+        "Berryessa",
+        "Zhang's guest",
+        "Sjblc@1208",
+        "first floor",
+        "through living room",
+        "last 4 digits",
+        "guest parking",
+        "permit",
+        "near Bart"
+      ],
+      "templates": {
+        "check_in": "Hi [Guest Name]!\n\nWe hope you're getting excited for your trip!\n\nYour check-in time is 3:00 PM on [DAY], [DATE]. When you arrive, you can let yourself in using the code: [LAST 4 DIGITS OF PHONE] (the last 4 digits of your phone number). Just enter the code and press the logo on the lock to unlock and enter.\n\nYour room is located on the first floor. After passing through the living room, turn left at the end of the hallway—you'll find your bedroom on the left and the bathroom on the right. Both rooms are clearly labeled for guests.\n\nWiFi:\n- Network: Zhang's guest\n- Password: Sjblc@1208\n\nParking:\nYou can use street parking or our guest parking spaces. For guest parking, look for the sign at the first left turn into the street. Please ask for a parking permit when you arrive and return it at checkout.\n\nThe neighborhood is safe and convenient—we hope you have a relaxing and enjoyable stay!\n\nBest regards,\n[Your Name]",
+        "wifi_troubleshooting": "Hi [Guest Name]! For WiFi issues:\n\n📶 Network: Zhang's guest\n🔒 Password: Sjblc@1208 (capital S, lowercase j, b, l, c, @ symbol, then 1208)\n\nTroubleshooting:\n- Make sure you're selecting 'Zhang's guest' (not the main network)\n- Password is case-sensitive: Sjblc@1208\n- Try forgetting and reconnecting to the network\n- Restart your device if needed\n\nIf still having issues, please message us on Airbnb and we'll help resolve it quickly!\n\nBest,\n[Your Name]",
+        "access_instructions": "Hi [Guest Name]! Here are your access details:\n\n🚪 Door Code: [LAST 4 DIGITS] (the last 4 digits of your phone number)\n🔓 How to Enter: Enter the code and press the logo on the keypad lock\n\nFinding Your Room:\n1. Enter the front door\n2. Pass through the living room\n3. Turn left at the end of the hallway\n4. Your bedroom is on the left, bathroom on the right\n5. Both rooms are clearly labeled for guests\n\nThe neighborhood is safe and convenient. Let us know if you have any trouble finding your way!\n\nBest,\n[Your Name]",
+        "parking_information": "Hi [Guest Name]! Parking information:\n\n🚗 Parking Options: Street parking (free) OR guest parking spaces with permit\n📍 Guest Parking: First left turn into street (look for guest parking sign)\n🎫 Permit: Please ask for permit at arrival, return at checkout\n⏰ Street Parking: Available 24/7, no restrictions\n\nThe guest parking is clearly marked and reserved for our guests. We'll have your permit ready at check-in!\n\nBest,\n[Your Name]"
+      }
+    }
+  ],
+  "message_analysis_framework": {
+    "message_types": [
+      "Pre-Arrival Messages",
+      "During-Stay Messages",
+      "Post-Checkout Messages",
+      "Emergency Messages"
+    ],
+    "urgency_levels": {
+      "emergency": "Immediate response required",
+      "high": "Within 1–2 hours",
+      "medium": "Within 4–6 hours",
+      "low": "Within 24 hours"
+    },
+    "property_identification_steps": [
+      "Scan for property-specific keywords",
+      "Check booking context if mentioned",
+      "Ask for clarification if unclear",
+      "Default to general if no property identified"
+    ],
+    "response_strategies": [
+      "Pre-Approval Screening Required",
+      "Template Response",
+      "Custom Response",
+      "Escalation Required"
+    ]
+  },
+  "universal_templates": {
+    "pre_approval_screening": "Hi [Guest Name],\n\nThank you for reaching out! We're excited to have you as our guest and are committed to making your stay exceptional. To help us better prepare for your visit, we have a few standard questions:\n\n1. Do you plan to cook or use any potentially greasy items during your stay?\n2. Are there any strongly scented body products that you use?\n3. What brings you to our area?\n\nYour answers will assist us in ensuring your comfort throughout your stay. Thank you for choosing us, and we look forward to welcoming you!\n\nBest,\nVivian (I am Shawn's wife and we are co-hosting the listing)",
+    "check_in_instructions": "Hi [Guest Name]! Welcome to [City]. Your check-in details for [Address]:\n\n🚪 Access: [ACCESS_INSTRUCTIONS]\n📶 WiFi: [NETWORK_NAME] / Password: [PASSWORD]\n🚗 Parking: [PARKING_DETAILS]\n\nCheck-in: [CHECK_IN_TIME] today | Check-out: Before [CHECK_OUT_TIME] on [DATE]\nQuiet Hours: [QUIET_HOURS]\n\n[PROPERTY_SPECIFIC_WELCOME_INFO]\n\nAny questions before your arrival? Looking forward to hosting you!\n\nBest regards,\n[Your Name]",
+    "wifi_troubleshooting": "Hi [Guest Name]! For WiFi issues:\n\n📶 Network: [NETWORK_NAME]\n🔒 Password: [PASSWORD] ([CASE_NOTES])\n\nTroubleshooting:\n- Make sure you're selecting '[NETWORK_NAME]'\n- Password is case-sensitive: [PASSWORD]\n- Try forgetting and reconnecting to the network\n- Restart your device if needed\n\nIf still having issues, please text me and I'll help resolve it quickly!\n\nBest,\n[Your Name]",
+    "early_check_in_request": "Hi [Guest Name]! I understand you'd like to check in early.\n\nStandard Check-in: [STANDARD_TIME]\nYour Request: [REQUESTED_TIME] on [DATE]\n\nI'll check if the room is ready and get back to you by [RESPONSE_TIME]. If early check-in isn't possible, you're welcome to:\n- [ALTERNATIVE_1]\n- [ALTERNATIVE_2]\n- [ALTERNATIVE_3]\n\nI'll confirm within the next hour. Thanks for understanding!\n\nBest,\n[Your Name]",
+    "checkout_reminder": "Hi [Guest Name]! Just a friendly checkout reminder for tomorrow:\n\n⏰ Checkout: Before [CHECKOUT_TIME] on [DATE]\n[ACCESS_RETURN_INSTRUCTIONS]\n🧹 Room Condition: Please leave in tidy condition\n🗑️ Trash: Dispose of any trash properly\n\nLast Night: Remember quiet hours until [QUIET_END_TIME]\n\nThanks for being a great guest! Safe travels!\n\nBest,\n[Your Name]",
+    "post_checkout_followup": "Hi [Guest Name]! Thank you for staying with us at [PROPERTY_NAME].\n\nI hope you enjoyed:\n✅ [HIGHLIGHT_1]\n✅ [HIGHLIGHT_2]\n✅ [HIGHLIGHT_3]\n\nQuick Favor: If you have a moment, a review on Airbnb would mean a lot! It helps other travelers find our space.\n\nForgot Something? Let me know within 24 hours and I'll help arrange return.\n\nThanks again for choosing our place. You're always welcome back!\n\nBest regards,\n[Your Name]"
+  },
+  "workflow_instructions": [
+    "Read the guest message carefully",
+    "Identify the property using keywords and context",
+    "Categorize the message type",
+    "Assess urgency level",
+    "Select appropriate response approach",
+    "Generate personalized response using property-specific info",
+    "Include relevant details (guest name, dates, instructions)"
+  ],
+  "output_format": "ANALYSIS:\n- Property: [Property Name]\n- Type: [Message Category]\n- Urgency: [Level with emoji]\n- Approach: [Response Strategy]\n\nSUGGESTED RESPONSE:\n[Complete message ready to send]\n\nNOTES:\n[Any additional actions]",
+  "quick_answers": {
+    "campbell": {
+      "wifi": "XLW's guest / Cbld@1144",
+      "door_code": "Last 4 digits of phone number",
+      "parking": "Street parking available",
+      "kitchen": "3 guest drawers, light cooking only",
+      "monitor": "34-inch ultra-wide with USB-C",
+      "quiet_hours": "10PM-7AM",
+      "grocery": "Nob Hill Foods (1.2 mi), Safeway (1.5 mi)",
+      "transport": "Winchester VTA station (0.8 mi)",
+      "emergency": "(650) 336-5092, then 911"
+    },
+    "briarleaf": {
+      "wifi": "Zhang's guest / Sjblc@1208",
+      "door_code": "Last 4 digits of phone number",
+      "room_location": "First floor, through living room, left at hallway end",
+      "parking": "Street parking (free) OR guest spaces with permit",
+      "kitchen": "Dedicated fridge/freezer sections, light cooking",
+      "layout": "Bedroom left, bathroom right",
+      "quiet_hours": "10PM-7AM",
+      "grocery": "Safeway (2.6 mi), 99 Ranch Market (2.6 mi)",
+      "transport": "VTA Orange Line, Milpitas Station (2 mi)",
+      "emergency": "(650) 336-5092, then 911"
+    }
+  }
+}
